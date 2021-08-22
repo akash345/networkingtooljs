@@ -1,0 +1,32 @@
+body{
+    width: 450px;
+    height:450px;
+}
+
+title{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+textForm{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #333;
+    height: 20px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+
+contactform{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    alignment: center;
+}

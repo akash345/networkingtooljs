@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="popupstyle.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Networking Tool</title>
+</head>
+
+<body>
+
+<div class = "title">
+<h1 style="text-align: center">New Connection</h1>
+</div>
+
+<div class = "contactform" style="align-items: center">
+  <form>
+    <!--Text box form elements -->
+    <label for="fname" class="textForm">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+
+    <label for="lname" class="textForm">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+
+    <label for="company" class="textForm">Company: </label><br>
+    <input type="text" id="company" name="company"><br>
+
+    <label for="title" class="textForm">Title: </label><br>
+    <input type="text" id="title" name="title"><br>
+    <!--Radio form elements-->
+    <p>Mode of Contact: </p>
+    <input type="radio" id="linkedin" name="contactmode" value="LinkedIn">
+    <label for="linkedin">LinkedIn</label><br>
+    <input type="radio" id="email" name="contactmode" value="Email">
+    <label for="email">Email</label><br>
+    <input type="radio" id="message" name="contactmode" value="Message">
+    <label for="message">Message</label>
+
+    <p>Status: </p>
+    <input type="radio" id="reachedout" name="contact status" value="Reached Out">
+    <label for="reachedout">Reached Out</label><br>
+    <input type="radio" id="connected" name="contact status" value="Connected">
+    <label for="connected">Connected</label><br>
+    <input type="radio" id="chatted" name="contact status" value="Chatted">
+    <label for="chatted">Chatted</label><br><br>
+
+    <input type="submit" value="Add Contact" id="addContact">
+  </form>
+</div>
+
+<script src="popup.js"></script>
+</body>
+
+</html>
